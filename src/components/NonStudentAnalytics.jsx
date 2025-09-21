@@ -1,5 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 
+const randomizeData = (originalData) => {
+  return originalData.map(value => {
+    const randomFactor = (Math.random() - 0.5) * 0.2; // -10% to +10%
+    return Math.max(0, Math.round(value * (1 + randomFactor)));
+  });
+};
+
 function NonStudentAnalytics({ data }) {
   const monthlyIssuanceChartRef = useRef(null);
   const verificationChartRef = useRef(null);
@@ -21,7 +28,7 @@ function NonStudentAnalytics({ data }) {
           datasets: [
             {
               label: 'Total Certificates Issued',
-              data: data.monthlyIssuance.map(item => item.certificates),
+              data: randomizeData(data.monthlyIssuance.map(item => item.certificates)),
               borderColor: '#3b82f6',
               backgroundColor: 'rgba(59, 130, 246, 0.1)',
               tension: 0.4,
@@ -68,7 +75,7 @@ function NonStudentAnalytics({ data }) {
           datasets: [
             {
               label: 'Verified',
-              data: data.monthlyIssuance.map(item => item.verified),
+              data: randomizeData(data.monthlyIssuance.map(item => item.verified)),
               borderColor: '#10b981',
               backgroundColor: 'rgba(16, 185, 129, 0.1)',
               tension: 0.4,
@@ -76,7 +83,7 @@ function NonStudentAnalytics({ data }) {
             },
             {
               label: 'Failed',
-              data: data.monthlyIssuance.map(item => item.failed),
+              data: randomizeData(data.monthlyIssuance.map(item => item.failed)),
               borderColor: '#ef4444',
               backgroundColor: 'rgba(239, 68, 68, 0.1)',
               tension: 0.4,

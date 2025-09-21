@@ -44,7 +44,7 @@ const APP_DATA = {
   mockCertificates: [
     {
       id: "CERT001",
-      studentName: "Kaavy Aggarwal", 
+      studentName: "Kaavy Aggrawal", 
       institution: "BPIT",
       degree: "Bachelor of Computer Science",
       year: "2024",
@@ -126,7 +126,7 @@ const APP_DATA = {
           grade: "First Class Honors",
           status: "verified",
           blockchainHash: "0xabc123def456789abcdef123456789abcdef12345",
-          qrData: "VERIFY:CERT_001:BPIT:CS:2024:ALEX_JOHNSON:0xabc123",
+          qrData: "VERIFY:CERT_001:BPIT:CS:2024:KAAVY_AGGRAWAL:0xabc123",
           uploadDate: "2024-01-15",
           verificationCount: 5,
           aiConfidence: 98.9,
@@ -143,7 +143,7 @@ const APP_DATA = {
           grade: "A+",
           status: "verified",
           blockchainHash: "0xdef789abc123456def789abc123456def789abc12",
-          qrData: "VERIFY:CERT_002:BPIT:ML:2024:ALEX_JOHNSON:0xdef789",
+          qrData: "VERIFY:CERT_002:BPIT:ML:2024:KAAVY_AGGRAWAL:0xdef789",
           uploadDate: "2024-02-10",
           verificationCount: 3,
           aiConfidence: 97.5,
@@ -172,7 +172,7 @@ const APP_DATA = {
         {
           id: "VER_002",
           candidateName: "Neha Gupta",
-          institution: "MIT",
+          institution: "MAIT",
           degree: "Engineering",
           result: "FAILED",
           confidence: 45.2,

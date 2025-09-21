@@ -162,12 +162,12 @@ function GovernmentDashboard({ user, appData }) {
             <div style={{ fontSize: '0.875rem' }}>
               <div style={{ marginBottom: '0.75rem', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(255, 255, 255, 0.1)' }}>
                 <div style={{ color: '#10b981' }}>✅ Certificate verified</div>
-                <div style={{ color: 'rgba(255, 255, 255, 0.6)' }}>MIT - 2 minutes ago</div>
+                <div style={{ color: 'rgba(255, 255, 255, 0.6)' }}>BPIT - 2 minutes ago</div>
               </div>
 
               <div style={{ marginBottom: '0.75rem', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(255, 255, 255, 0.1)' }}>
                 <div style={{ color: '#3b82f6' }}>📜 New certificate issued</div>
-                <div style={{ color: 'rgba(255, 255, 255, 0.6)' }}>Stanford - 5 minutes ago</div>
+                <div style={{ color: 'rgba(255, 255, 255, 0.6)' }}>MAIT - 5 minutes ago</div>
               </div>
 
               <div style={{ marginBottom: '0.75rem', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(255, 255, 255, 0.1)' }}>
@@ -177,7 +177,7 @@ function GovernmentDashboard({ user, appData }) {
 
               <div>
                 <div style={{ color: '#f59e0b' }}>🏫 New institution registered</div>
-                <div style={{ color: 'rgba(255, 255, 255, 0.6)' }}>Global Tech University - 1 hour ago</div>
+                <div style={{ color: 'rgba(255, 255, 255, 0.6)' }}>GGSIPU - 1 hour ago</div>
               </div>
             </div>
           </div>

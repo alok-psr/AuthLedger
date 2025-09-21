@@ -286,7 +286,7 @@ function EmployerDashboard({ user, appData }) {
         {
           result: 'PASSED',
           candidateName: 'John Smith',
-          institution: 'MIT',
+          institution: 'MAIT',
           degree: 'Computer Science',
           confidence: 98.7,
           fraudRisk: 'LOW',
