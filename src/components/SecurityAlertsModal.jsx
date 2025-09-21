@@ -24,7 +24,7 @@ function SecurityAlertsModal({ onClose }) {
       description: 'Candidate name mismatch during verification.',
       timestamp: '2024-09-18 09:00 AM',
       severity: 'Low',
-      details: 'Expected: Rahul Sharma, Found: R. Sharma',
+      details: 'Expected: Kaavy Aggarwal, Found: K. Aggarwal',
     },
   ];
 
