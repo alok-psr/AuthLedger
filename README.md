@@ -177,18 +177,6 @@ Real Chart.js visualizations:
 - Fraud risk assessment
 - Confidence scoring algorithms
 
-## 🚀 Production Deployment
-
-1. **Build the application:**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy the `dist/` folder** to your hosting platform:
-   - Vercel
-   - Netlify  
-   - AWS S3 + CloudFront
-   - Any static hosting service
 
 ## 📈 Performance
 
