@@ -4,7 +4,7 @@ function ManageStudentsModal({ onClose }) {
   const mockStudents = [
     {
       id: 'S001',
-      name: 'Rahul Sharma',
+      name: 'Kaavy Aggarwal',
       enrollment: 'ENR12345',
       status: 'Active',
       certificates: 2,
