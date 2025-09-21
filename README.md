@@ -6,7 +6,7 @@ A complete **Vite + React** application for blockchain-powered certificate verif
 
 ### 🎯 **ALL FEATURES WORKING - NO "COMING SOON":**
 
-- ✅ **Face Verification** - Real camera integration with 3-second timer
+- ✅ **Face Verification** - Real camera integration with 3-second timer.
 - ✅ **QR Code Generation** - Working QR codes with download functionality  
 - ✅ **File Upload** - Student upload with drag & drop and progress tracking
 - ✅ **Bulk Upload** - Institution CSV/Excel batch processing
