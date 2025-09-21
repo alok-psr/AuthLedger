@@ -23,8 +23,8 @@ function EmployerDashboard({ user, appData }) {
       const mockResults = [
         {
           result: 'PASSED',
-          candidateName: 'John Smith',
-          institution: 'MIT',
+          candidateName: 'Aman Gupta',
+          institution: 'BPIT',
           degree: 'Computer Science',
           confidence: 98.7,
           fraudRisk: 'LOW',
@@ -32,7 +32,7 @@ function EmployerDashboard({ user, appData }) {
         },
         {
           result: 'FAILED', 
-          candidateName: 'Jane Doe',
+          candidateName: 'Priya Sukla',
           institution: 'Unknown University',
           degree: 'Engineering',
           confidence: 23.4,
