@@ -22,7 +22,7 @@ function Authentication({ selectedRole, userProfiles, onAuthenticate, onBack }) 
     setTimeout(() => {
       const user = { 
         ...role, 
-        name: selectedRole === 'student' ? "Kaavy Aggaarwal" : role.name, 
+        name: selectedRole === 'student' ? "Kaavy Aggarwal" : role.name, 
         enrollmentNumber: selectedRole === 'student' ? "ENR12345" : null 
       };
       onAuthenticate(user);
